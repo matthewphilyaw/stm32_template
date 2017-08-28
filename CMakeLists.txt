@@ -30,6 +30,7 @@ include_directories(
 )
 
 # User source
+# Explitly list out source files here
 set(USER_SOURCE
         src/main.c
 )
