@@ -7,6 +7,7 @@ git clone https://github.com/matthewphilyaw/stm32_template
 mkdir build
 cd build
 cmake -DCMAKE_TOOLCHAIN_FILE=STM32.cmake ..
+make
 ~~~
 
 This template uses CMake and is based around the STM32 Cube FW folder that each family comes with (family being L0, F0, F3 etc).
